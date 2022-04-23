@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.32685185185185184" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.32685185185185184" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/drawable/ic_launcher_background.xml" value="0.32685185185185184" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout-v26/fragment_sliders.xml" value="0.1595744680851064" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/activity_main.xml" value="0.22870370370370371" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/content_main.xml" value="0.33" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/drawer_header.xml" value="0.33" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/drawer_menu.xml" value="0.20244565217391305" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/drawer_toolbar.xml" value="0.20244565217391305" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/fragment_home.xml" value="0.2674772036474164" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/fragment_mvp.xml" value="0.2674772036474164" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/fragment_sliders.xml" value="0.3593429158110883" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/mvplist.xml" value="0.5541666666666667" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/navigation_header_main.xml" value="0.20244565217391305" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/navigation_menu.xml" value="0.15881458966565348" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/layout/sliders.xml" value="0.2" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/menu/acitivity_main_drawer.xml" value="0.328125" />
+        <entry key="..\:/CapstoneNoErrors/app/src/main/res/menu/drawer_menu.xml" value="0.328125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

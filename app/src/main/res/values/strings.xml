@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CapstoneNoErrors</string>
+
+    //slider bar texts
+    <string name="points">Points</string>
+    <string name="total_rebounds">Rebounds</string>
+    <string name="assists">Assists</string>
+    <string name="steals">Steals</string>
+    <string name="blocks">Blocks</string>
+    <string name="total_percentage">Shooting Percentage</string>
+    <string name="two_pt_percentage">2 Point Percentage</string>
+    <string name="three_pt_percentage">3 Point Percentage</string>
+    <string name="offensive_rebounds">Offensive Rebounding</string>
+    <string name="turnovers">Turnovers</string>
+    <string name="plus_minus">Plus/Minus</string>
+
+    <string name="points_number">50</string>
+
+
+
+
+    //UI Testing Strings
+    <string name="open">Page Opened</string>
+    <string name="close">Page Closed</string>
+
+    //Drawer item Titles
+    <string name="home">Home</string>
+    <string name="mvp">MVP Race</string>
+    <string name="settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
