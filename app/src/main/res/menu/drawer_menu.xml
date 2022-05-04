@@ -5,7 +5,7 @@
     <item
         android:icon="@drawable/ic_baseline_people_24"
         android:title="@string/mvp"
-        android:id="@+id/mvp"/>
+        android:id="@+id/mvp" />
     <item
         android:icon="@drawable/ic_baseline_settings_24"
         android:title="@string/settings"

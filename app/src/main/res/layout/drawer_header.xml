@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="150dp"
-    android:background="#2196F3"
+    android:background="#0609A3"
     android:orientation="vertical">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_width="240dp"
         android:layout_height="57dp"
         android:text="NBA Custom MVP"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

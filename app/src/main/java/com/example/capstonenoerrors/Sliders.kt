@@ -1,5 +1,6 @@
 package com.example.capstonenoerrors
 
+import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -24,7 +25,10 @@ class Sliders : Fragment() {
         // Inflate the layout for this fragment
         val view = inflater.inflate(R.layout.fragment_sliders, container, false)
 
+        //creates an instance of an activity as a Communicator in order to pass the data from the sliders to the passSliderData method
         communicator = activity as Communicator
+
+
 
         view.points_seekbar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
@@ -63,22 +67,6 @@ class Sliders : Fragment() {
         view.assists_seekbar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
             override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
                 data[2] = progress
-                communicator.passSliderData(data)
-            }
-
-            override fun onStartTrackingTouch(seekBar: SeekBar?) {
-                print("started tracking")
-            }
-
-            override fun onStopTrackingTouch(seekBar: SeekBar?) {
-                print("stopped tracking")
-            }
-
-        })
-
-        view.steals_seekbar.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener {
-            override fun onProgressChanged(seekBar: SeekBar?, progress: Int, fromUser: Boolean) {
-                data[3] = progress
                 communicator.passSliderData(data)
             }
 
@@ -174,19 +162,6 @@ class Sliders : Fragment() {
 
         return view
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
